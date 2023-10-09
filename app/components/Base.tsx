@@ -4,14 +4,17 @@ import Paragraph from "./Paragraph";
 export default function Home() {
   return (
     <main className="min-h-screen flex-col items-center justify-between p-24">
-      <div className="mb-4 font-bold">
+      <div className="mb-8 font-bold">
         <Header title={"Monikka Edgeston"} />
       </div>
       <div className="flex mb-4">
         <div className="w-1/2">
           <div className="mb-3 font-bold">
             <Paragraph size={"large"}>
-              Front-End Engineer at Vail Systems
+              Front-End Engineer at{" "}
+              <i>
+                <strong>Vail Systems</strong>
+              </i>
             </Paragraph>
           </div>
           <div className="mb-4">

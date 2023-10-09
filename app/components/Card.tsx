@@ -7,7 +7,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, content }) => {
   return (
-    <div className="card">
+    <div>
       <div>{title}</div>
       <div>{content}</div>
     </div>
