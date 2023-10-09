@@ -26,9 +26,9 @@ export default function Home() {
           <div className="mb-4">
             <Paragraph>
               {" "}
-              I've been IT for the past 5 years. I've worked in support,
-              networking, and am now a Software Engineer. I love learning, code,
-              and helping others.
+              I&rsquo;ve been IT for the past 5 years. I&rsquo;ve worked in
+              support, networking, and am now a Software Engineer. I love
+              learning, code, and helping others.
             </Paragraph>
           </div>
         </div>
