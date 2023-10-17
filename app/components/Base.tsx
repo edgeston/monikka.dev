@@ -1,15 +1,16 @@
 import Header from "./Header";
+import Links from "./Link";
 import Paragraph from "./Paragraph";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex-col items-center justify-between p-24">
+    <main className="min-h-screen flex-col items-center mx-48 my-24">
       <div className="mb-8 font-bold">
         <Header title={"Monikka Edgeston"} />
       </div>
-      <div className="flex mb-4">
+      <div className="flex mb-4 space-x-36">
         <div className="w-1/2">
-          <div className="mb-3 font-bold">
+          <div className="mb-8 font-bold">
             <Paragraph size={"large"}>
               Front-End Engineer at{" "}
               <i>
@@ -17,12 +18,23 @@ export default function Home() {
               </i>
             </Paragraph>
           </div>
-          <div className="mb-4">
+          <div className="mb-16">
             <Paragraph italics={true}>
               {" "}
               I enjoy thinking, code, creating solutions, and helping others.
               Passionate about tech and people.
             </Paragraph>
+          </div>
+          <div className="mb-4 items-center">
+            <Links linkName={"About"} href={"/"}></Links>
+            <Links
+              linkName={"Experience"}
+              href={"https://www.google.com"}
+            ></Links>
+            <Links
+              linkName={"Projects"}
+              href={"https://www.wikipedia.com"}
+            ></Links>
           </div>
         </div>
         <div className="w-1/2">
